@@ -1,2 +1,2 @@
 # sonarqube-tslint
-a sonarqube image with node and tslint
+a sonarqube scanner image with node and tslint
