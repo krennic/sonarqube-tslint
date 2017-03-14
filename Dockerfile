@@ -16,3 +16,5 @@ RUN npm install -g tslint typescript && \
 	ln -fs /usr/bin/nodejs /usr/bin/node
 
 WORKDIR /workspace
+
+ENTRYPOINT ["/sonar-scanner/bin/sonar-scanner", "-Dsonar.projectBaseDir=/workspace"]
