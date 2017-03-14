@@ -14,3 +14,5 @@ RUN npm install -g tslint typescript && \
 	n 6.10.0 &&\
 	rm -rf ~/.npm && \
 	ln -fs /usr/bin/nodejs /usr/bin/node
+
+WORKDIR /workspace
